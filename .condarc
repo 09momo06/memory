@@ -1,0 +1,4 @@
+channels:
+  - conda-forge
+register_envs: false
+auto_update_conda: false

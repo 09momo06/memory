@@ -1,0 +1,55 @@
+# Local environments, caches, packages and temporary files
+/.conda/
+/.cache/
+/.wheels/
+/.tmp/
+/.venv/
+/venv/
+
+# Experimental data, checkpoints, outputs and historical logs
+/data/
+/data_fake*/
+/ckpt/
+/ckpt_fake*/
+/results/
+/results_fake*/
+/logs/
+
+# Large generated assets; transfer separately from Git
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.whl
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.partial
+
+# Credentials and local machine settings
+.env
+.env.*
+!.env.example
+/.ssh/
+/.aws/
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+credentials.json
+token.json
+/.vscode/
+/.idea/
+
+# Python and OS generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store

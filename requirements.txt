@@ -1,0 +1,7 @@
+# torch / fairseq2 / sonar-space 由 setup_env.sh 按固定顺序安装，不要放在这里
+datasets
+sacrebleu
+rouge-score
+matplotlib
+numpy
+# 仅 BGE 备选方案需要：sentence-transformers
